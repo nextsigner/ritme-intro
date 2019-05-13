@@ -11,17 +11,12 @@ Item {
     property int uYContent: 0
     property bool showFailTools: false
 
-    Settings{
-        id: settingsMod002
-        category: 'espanish-mod-002'
-        property string uText: ''
-    }
     Column{
         width: r.width-app.fs
         anchors.centerIn: r
         spacing: app.fs*0.5
         Text{
-            text: '<b>Unik Drumppad</b>'
+            text: '<b>RITME</b>'
             font.pixelSize: app.fs*3
             color: app.c2
             anchors.horizontalCenter: parent.horizontalCenter
